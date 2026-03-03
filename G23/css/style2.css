@@ -1,0 +1,34 @@
+
+.text_formatting{
+    color: green;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text{
+    text-indent: 50px;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.td{
+    text-decoration: none;
+}
+
+.italy_text{
+    background-color: aqua;
+}
+
+.Geek{
+    color: green;
+    text-align: center;
+}
+
+.tailwind{
+    text-align: center;
+}
+
+.GFG_text{
+    text-indent: 50px;
+    text-transform: capitalize;
+}
