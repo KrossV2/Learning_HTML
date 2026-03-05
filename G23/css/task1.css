@@ -1,0 +1,36 @@
+.lorem1 {
+    background-color: gray;
+    border-left: 20px solid green;
+    border-top-right-radius: 50px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 20px;
+    letter-spacing: 2px;
+    width: 1400px;
+    font-family: "Allkin", system-ui;
+    font-style: italic;
+}
+
+.lorem2 {
+    background-color: rgba(0, 0, 0, 0.211);
+    border-left: 20px double red;
+    border-bottom-right-radius: 50px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 20px;
+    font-family: "Bpmf Huninn", sans-serif;
+    width: 1400px;
+}
+
+.lorem3 {
+    background-color: aqua;
+    border-left: 20px dotted blue;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 20px;
+    width: 1400px;
+    font-family: "LINE Seed JP", sans-serif;
+    font-style: italic;
+}

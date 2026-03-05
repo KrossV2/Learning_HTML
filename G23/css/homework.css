@@ -1,0 +1,48 @@
+
+
+.style-2_body {
+    background-color: white; 
+    padding: 20px;
+}
+
+.Header_Style2 {
+    color: rgb(5, 215, 5); 
+    text-transform: capitalize; 
+}
+
+.text {
+    color: black;
+    text-align: justify; 
+    line-height: 2; 
+    font-size: 16px; 
+}
+
+ul {
+    padding: 0; 
+    display: flex;  /* Yonma yon qiladi*/
+    list-style-type: none; /* Raqam yoki nuqta olib tashlaydi */
+}
+
+ul li {
+    background-color: gray; 
+    color: white;
+    padding: 10px 15px;
+    margin-right: 5px;
+    cursor: pointer; /* Kursorni pointer qiladi (barmoqcha)*/
+}
+
+.stylesheet-3{
+    background-color: rgb(31, 213, 6);
+}
+
+.Side-Bar-Style2 {
+    background-color: gray; 
+    padding: 20px;
+    border: 1px solid white;
+}
+
+.side-bar_text {
+    color: rgb(78, 74, 74);
+    text-align: left;
+}
+

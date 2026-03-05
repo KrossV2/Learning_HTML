@@ -1,4 +1,10 @@
 /* class selector */
+
+*{
+    padding :0; /* Def off */
+    margin: 0;
+}
+
 .wtftext {
     background-color: rgb(75, 152, 152);
     color: white;
@@ -15,6 +21,47 @@
     color: white;
 }
 
+.wtftext{
+    border: 1px solid black; /* Tekkis chiziq*/
+    border: 1px dotted black; /* Nuqta */
+    border: 1px dashed black; /* - - - - - - - - */
+    border: 1px double black; /* Double line */
+
+    border-top: 1px solid black; /* Tepaga oddiy chiziq */
+    border-left: 1px dotted black; /* Chapga nuqta nuqta */
+    border-bottom: 2px dashed black; /* pastga -- - - - - - - - - - --  */
+    border-right: 1px double black; /* Ongga iktalik chiziq */
+
+    padding: 20px; /* Ichki bo'shliq */
+    padding-top: 20px; /* Tepaga bo'shliq */
+    padding-left: 20px; /* Chapga bo'shliq */
+    padding-bottom: 20px; /* pastga bo'shliq */
+    padding-right: 20px; /* Onga bo'shliq */
+    padding:20px 30px 40px 50px; /* Tepaga 20px, Onga 30px, pastga 40px, Chapga 50px */
+
+    margin: 20px; /* Tashqi bo'shliq */
+    margin-top: 20px; /* Tepaga bo'shliq */
+    margin-left: 20px; /* Chapga bo'shliq */
+    margin-bottom: 20px; /* pastga bo'shliq */
+    margin-right: 20px; /* Onga bo'shliq */
+    margin: 20px 30px 40px 50px; /* Tepaga 20px, Onga 30px, pastga 40px, Chapga 50px */ 
+
+    border-radius: 20px; /* Har taraflama */
+    border-top-left-radius: 20px; /* Tepa chap corner uchun */
+    border-bottom-left-radius: 20px;  /* past chap corner uchun */
+    border-bottom-right-radius: 20px; /* past ong corner uchun */
+    border-top-right-radius: 20px; /* tepa ong corner uchun */
+}
+
+.idonno{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+
+
+/*  */
 /* element selector */
 /*h1 {
     color: rgb(0, 0, 255);
