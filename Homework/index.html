@@ -10,86 +10,114 @@
 
 <body>
     <nav class="nav-bar">
-        <a class="nav-bar-items" href="#">home</a>
-        <a class="nav-bar-items" href="#">about</a>
-        <a class="nav-bar-items" href="#">menu</a>
-        <a class="nav-bar-items" href="#">where</a>
+        <div class="nav-container">
+            <a class="nav-bar-items" href="#home">HOME</a>
+            <a class="nav-bar-items" href="#about">ABOUT</a>
+            <a class="nav-bar-items" href="#menu">MENU</a>
+            <a class="nav-bar-items" href="#where">WHERE</a>
+        </div>
     </nav>
-    <header class="header">
-        <h1 class="the-cafe">The Cafe</h1>
-        <p class="open">Open from 6am to 5pm</p>
+
+    <header class="header" id="home">
+        <div class="header-content">
+            <span class="open-tag">Open from 6am to 5pm</span>
+            <h1 class="the-cafe">the <br> CAFE</h1>
+        </div>
     </header>
 
-    <section class="about">
-        <h2 class="about-the-cafe">About The Cafe</h2>
-        <div class="about-cafe-div">
-            <p class="about-text-1">The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,
-                consectetur
-                adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                <br>
-                <br>
-                In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch
-                sandwiches, as well as a selection of sides and salads and other good stuff.
-            </p>
-        </div>
-        <div class="about-text-2">
-            <p>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new
-                sweet.
-                <br>
-                <br>
-            <p>Chef, Coffeeist and Owner: Liam Brown</p>
-            </p>
-        </div>
-        <img class="about-img" src="/Homework/img/image.png" alt="WOW">
-        <div class="about-texts">
-            <p><strong>Opening hours: </strong>everyday from 6am to 5pm.</p><br>
-            <p><strong>Address: </strong>15 Adr street, 5015, NY</p>
-        </div>
+    <section class="container" id="about">
+        <div class="content">
+            <h2 class="section-title">ABOUT THE CAFE</h2>
+            <div class="about-box">
+                <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch
+                    sandwiches, as well as a selection of sides and salads and other good stuff.</p>
 
+                <div class="quote-box">
+                    <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is
+                            the new sweet.</i></p>
+                    <p>Chef, Coffeeist and Owner: Liam Brown</p>
+                </div>
+
+                <img class="main-img" src="https://www.w3schools.com/w3images/coffeehouse2.jpg" alt="Cafe">
+
+                <div class="info-text">
+                    <p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
+                    <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="menu">
-        <h2 class="menu-h2">The Menu</h2>
+    <section class="container grey-bg" id="menu">
+        <div class="content">
+            <h2 class="section-title">THE MENU</h2>
+            <div class="menu-tabs">
+                <button class="tab-btn active">Eat</button>
+                <button class="tab-btn">Drink</button>
+            </div>
 
-        <div class="menu-item">
-            <h3>Bread Basket</h3>
-            <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
-        </div>
-        <div class="menu-item">
-            <h3>Honey Almond Granola with Fruits</h3>
-            <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
-        </div>
-        <div class="menu-item">
-            <h3>Belgian Waffle</h3>
-            <p>Vanilla flavored batter with malted flour 7.50</p>
-        </div>
-        <div class="menu-item">
-            <h3>Scrambled eggs</h3>
-            <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
-        </div>
-        <div class="menu-item">
-            <h3>Blueberry Pancakes</h3>
-            <p>With syrup, butter and lots of berries 8.50</p>
-        </div>
+            <div id="Eat" class="menu-list">
+                <div class="menu-item">
+                    <h3>Bread Basket</h3>
+                    <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Honey Almond Granola with Fruits</h3>
+                    <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Belgian Waffle</h3>
+                    <p>Vanilla flavored batter with malted flour 7.50</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Scrambled eggs</h3>
+                    <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+                </div>
+            </div>
 
-        <img class="menu-img" src="/Homework/img2/image.png" alt="WOW">
+            <div id="Drink" class="menu-list" style="display:none">
+                <div class="menu-item">
+                    <h3>Coffee</h3>
+                    <p>Regular house coffee 2.50</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Chocolatato</h3>
+                    <p>Chocolate espresso with milk 4.50</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Tea</h3>
+                    <p>English Breakfast or Earl Grey 3.00</p>
+                </div>
+            </div>
+
+            <img class="main-img" src="https://www.w3schools.com/w3images/coffeeshop.jpg" alt="Menu">
+        </div>
     </section>
 
-    <section class="where">
-        <h2 class="where-h2">Where to Find us</h2>
-        <p class="find-us">Find us at some address at some place.</p>
-        <img class="where-img" src="/Homework/img3/image.png" alt="wow">
-        <p>
-        <p class="FYI">FYI!</p> We offer full-service catering for any event, large or small. We understand your needs
-        and we will
-        cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
-        <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
-        </p>
+    <section class="container" id="where">
+        <div class="content">
+            <h2 class="section-title">WHERE TO FIND US</h2>
+            <p>Find us at some address at some place.</p>
+            <img class="main-img" src="https://www.w3schools.com/w3images/map.jpg" alt="Map">
+            <p><span class="fyi-tag">FYI!</span> We offer full-service catering for any event, large or small.</p>
+            <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
 
+            <form class="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="number" placeholder="How many people" required>
+                <input type="datetime-local" value="2026-03-07T12:00">
+                <input type="text" placeholder="Message \ Special requirements">
+                <button type="submit" class="send-btn">SEND MESSAGE</button>
+            </form>
+        </div>
     </section>
 
+    <footer class="footer">
+        <p>Powered by CSS</p>
+    </footer>
 </body>
 
 </html>
