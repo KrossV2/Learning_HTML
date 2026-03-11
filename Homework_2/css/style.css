@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header{
+    text-align: center;
+    align-items: center;
+}
+
+.header_title{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.header_unknown_text{
+    background-color: black;
+    color: white;
+}
+
+.main{
+    margin-top: 40px;
+}
+
+.main_left{
+    display: inline-block;
+    width: 67%;
+    float: left;
+    box-shadow: 1px 1px 8px rgb(138, 138, 138);
+    height: 600px;
+    margin-bottom: 20px;
+}
+
+.main_right{
+    display: inline-block;
+    width: 30%;
+    float: right;
+    box-shadow: 1px 1px 8px rgb(138, 138, 138);
+    height: 450px;
+    margin-bottom: 10px;
+}
+
+.main_left, .main_right {
+    overflow: hidden; 
+}
+
