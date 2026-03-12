@@ -4,47 +4,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/boxshadov.css">
+    <link rel="stylesheet" href="/G23/css/boxshadov.css">
     <title>Document</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="header_items">
-            <a href="#" class="header_menu">HOME</a>
-            <a href="#" class="header_menu">MENU</a>
-            <a href="#" class="header_menu">ABOUT</a>
-            <a href="#" class="header_menu">CONTACT</a>
-        </div>
-        <h1 class="header_title">THIN <br><br>CRUSTY PIZZA</h1><br>
-        <h2 class="header_see_menu">LET ME SEE THE MENU</h2>
-        <h2 class="header_text">OPEN FROM 10AM TO 12PM</h2>
-    </header>
+    <div class="navbar">
+        <a href="#">HOME</a>
+        <a href="#menu">MENU</a>
+        <a href="#about">ABOUT</a>
+        <a href="#contact">CONTACT</a>
+        <button class="button">a</button>
+    </div>
 
-    <main class="main">
-        <h1 class="main_title">THE MENU</h1>
-        <div class="main_item">
-            <button class="main_buttons">PIZZA</button>
-            <button class="main_buttons">SALADS</button>
-            <button class="main_buttons">STARTER</button>
+    <div class="hero">
+        <h1>THIN CRUST PIZZA</h1>
+        <button>LET ME SEE THE MENU</button>
+    </div>
+
+    <div id="menu" class="section">
+
+        <h1 style="text-align:center;font-size:50px">THE MENU</h1>
+
+        <div class="menu-buttons">
+            <button>Pizza</button>
+            <button>Salads</button>
+            <button>Starter</button>
         </div>
-        <div class="main_menu_items">
-            <h2 class="main_menu_title">MARGHERITA</h2>
-            <p class="main_menu_item">FRESH TOMATOES, FRESH MOZARELLA , FRESH BASIL</p>
+
+        <div class="menu-list">
+
+            <div class="menu-item">
+                <h3>Margherita <span class="price">$12.50</span></h3>
+                <p>Fresh tomatoes, mozzarella, basil</p>
+                <hr>
+            </div>
+
+            <div class="menu-item">
+                <h3>Pepperoni <span class="price">$15.00</span></h3>
+                <p>Pepperoni, mozzarella, tomato sauce</p>
+                <hr>
+            </div>
+
+            <div class="menu-item">
+                <h3>Chicken Pizza <span class="price">$17.00</span></h3>
+                <p>Chicken, onions, cheese</p>
+                <hr>
+            </div>
+
+            <div class="menu-item">
+                <h3>Cheese Pizza <span class="price">$14.00</span></h3>
+                <p>Extra cheese and tomato sauce</p>
+            </div>
+
         </div>
-        <div class="main_menu_items">
-            <h2 class="main_menu_title">MARGHERITA</h2>
-            <p class="main_menu_item">FRESH TOMATOES, FRESH MOZARELLA , FRESH BASIL</p>
-        </div>
-        <div class="main_menu_items">
-            <h2 class="main_menu_title">MARGHERITA</h2>
-            <p class="main_menu_item">FRESH TOMATOES, FRESH MOZARELLA , FRESH BASIL</p>
-        </div>
-        <div class="main_menu_items">
-            <h2 class="main_menu_title">MARGHERITA</h2>
-            <p class="main_menu_item">FRESH TOMATOES, FRESH MOZARELLA , FRESH BASIL</p>
-        </div>
-    </main>
+
+    </div>
+
+    <div id="about" class="section about">
+
+        <h1 style="text-align:center">ABOUT</h1>
+
+        <p>
+            The Pizza Restaurant was founded in 2005. Our restaurant serves the best pizza in town with fresh
+            ingredients and delicious taste.
+        </p>
+
+        <p>
+            The chef? Mr. Italiano himself.
+        </p>
+
+        <img src="https://www.w3schools.com/w3images/chef.jpg" width="100%">
+
+        <h2>Opening Hours</h2>
+
+        <p>Mon & Tue CLOSED</p>
+        <p>Wednesday 10:00 - 24:00</p>
+        <p>Thursday 10:00 - 24:00</p>
+        <p>Friday 10:00 - 12:00</p>
+        <p>Saturday 10:00 - 23:00</p>
+        <p>Sunday Closed</p>
+
+    </div>
+
+    <div id="contact" class="section contact">
+
+        <h1 style="text-align:center">CONTACT</h1>
+
+        <p>Find us at some address or call us at 05050515</p>
+
+        <p><b>Reserve</b> a table or ask for today's special:</p>
+
+        <form>
+
+            <input type="text" placeholder="Name" style="width:100%;padding:15px;margin:10px 0">
+
+            <input type="number" placeholder="How many people" style="width:100%;padding:15px;margin:10px 0">
+
+            <input type="datetime-local" style="width:100%;padding:15px;margin:10px 0">
+
+            <input type="text" placeholder="Message" style="width:100%;padding:15px;margin:10px 0">
+
+            <button style="width:100%;padding:15px">SEND MESSAGE</button>
+
+        </form>
+
+    </div>
+
+    <div class="footer">
+        <p>WOW</p>
+    </div>
+
 </body>
 
 </html>
